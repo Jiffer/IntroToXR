@@ -9,7 +9,7 @@ public class Proximity : MonoBehaviour
     public string newTitle;
     public string newAuthor;
     public string newDesc;
-    public string labelDistance = 10;
+    public float labelDistance = 10;
     private Transform other;
     private TextMeshProUGUI myTitle;
     private TextMeshProUGUI myAuthor;
